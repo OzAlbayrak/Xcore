@@ -1,0 +1,7 @@
+@startuml
+class Init2 <<partial>> {
+    # <<override>> Up(migrationBuilder:MigrationBuilder) : void
+    # <<override>> Down(migrationBuilder:MigrationBuilder) : void
+}
+Migration <|-- Init2
+@enduml

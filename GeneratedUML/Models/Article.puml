@@ -1,0 +1,11 @@
+@startuml
+class Article {
+    + Title : string <<get>> <<set>>
+    + Description : string <<get>> <<set>>
+    + Author : string <<get>> <<set>>
+}
+Dates <|-- Article
+IArticle <|-- Article
+Article --> "CreatedDate" DateTime
+Article --> "Type" ContentTypeEntity
+@enduml

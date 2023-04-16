@@ -1,0 +1,10 @@
+@startuml
+class ArticlesService {
+    + ArticlesService(dataContext:DataContext)
+    + <<async>> UpdateArticleAsync(article:ArticleEntity) : Task<bool>
+    + <<async>> DeleteArticleAsync(id:int) : Task<bool>
+    + <<async>> GetArticleAsync(id:int) : Task<ArticleEntity>
+    + <<async>> GetAllArticleAsync() : Task<IActionResult>
+}
+ArticlesService --> "_dataContext" DataContext
+@enduml

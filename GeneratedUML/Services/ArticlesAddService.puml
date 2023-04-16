@@ -1,0 +1,7 @@
+@startuml
+class ArticlesAddService {
+    + ArticlesAddService(articleRepository:ArticleRepository)
+    + CreateArticle(article:ArticleEntity) : void
+}
+ArticlesAddService --> "_articleRepository" ArticleRepository
+@enduml

@@ -1,0 +1,7 @@
+@startuml
+class ContentTypesService {
+    + ContentTypesService(dataContext:DataContext)
+    + <<async>> CreateContentTypesAsync(type:ContentTypeEntity) : Task<bool>
+}
+ContentTypesService --> "_dataContext" DataContext
+@enduml

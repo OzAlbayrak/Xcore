@@ -1,0 +1,6 @@
+@startuml
+class Dates {
+}
+Dates o-> "CreatedDate" DateTime
+Dates o-> "UpdatedDate" DateTime
+@enduml

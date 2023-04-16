@@ -1,0 +1,34 @@
+@startuml
+!include .\\Program.puml
+!include .\\Contexts\DataContext.puml
+!include .\\Controllers\ArticlesController.puml
+!include .\\Controllers\ContentTypesController.puml
+!include .\\Interfaces\IArticle.puml
+!include .\\Migrations\20230411143854_Init.puml
+!include .\\Migrations\20230411143854_Init.Designer.puml
+!include .\\Migrations\20230411145006_Init2.puml
+!include .\\Migrations\20230411145006_Init2.Designer.puml
+!include .\\Migrations\20230411145111_Init3.puml
+!include .\\Migrations\20230411145111_Init3.Designer.puml
+!include .\\Migrations\20230411150648_Init4.puml
+!include .\\Migrations\20230411150648_Init4.Designer.puml
+!include .\\Migrations\20230413094134_Init5.puml
+!include .\\Migrations\20230413094134_Init5.Designer.puml
+!include .\\Migrations\20230413140354_Init6.puml
+!include .\\Migrations\20230413140354_Init6.Designer.puml
+!include .\\Migrations\DataContextModelSnapshot.puml
+!include .\\Models\Article.puml
+!include .\\Models\ContentType.puml
+!include .\\Models\Dates.puml
+!include .\\Repositories\ArticleRepository.puml
+!include .\\Repositories\ContentTypesRepository.puml
+!include .\\Services\ArticlesAddService.puml
+!include .\\Services\ArticlesService.puml
+!include .\\Services\ContentTypesService.puml
+!include .\\Models\Entities\ArticleEntity.puml
+!include .\\Models\Entities\ContentTypeEntity.puml
+!include .\\obj\Debug\net7.0\.NETCoreApp,Version=v7.0.AssemblyAttributes.puml
+!include .\\obj\Debug\net7.0\Xcore.AssemblyInfo.puml
+!include .\\obj\Debug\net7.0\Xcore.GlobalUsings.g.puml
+!include .\\obj\Debug\net7.0\Xcore.MvcApplicationPartsAssemblyInfo.puml
+@enduml
